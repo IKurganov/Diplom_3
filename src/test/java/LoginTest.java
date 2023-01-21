@@ -34,7 +34,7 @@ public class LoginTest {
         userDataHelper = new UserDataHelper();
         loginPage = new LoginPage(driver);
         personalAccountPage = new PersonalAccountPage(driver);
-        userRequest = geFtUserRequestWithCorrectData();
+        userRequest = getUserRequestWithCorrectData();
         userDataHelper.create(userRequest);
     }
 
